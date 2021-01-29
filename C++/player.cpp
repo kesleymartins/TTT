@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int Player::get_input(const char & c)
+const int Player::get_input(const char & c)
 {
 	int new_coord;
 	

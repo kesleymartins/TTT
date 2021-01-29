@@ -18,7 +18,7 @@ public:
 	Game();
 
 	// Acessors
-	bool get_game_loop() { return this->game_loop; }
+	inline const bool & get_game_loop() { return this->game_loop; }
 
 	// Modifiers
 
